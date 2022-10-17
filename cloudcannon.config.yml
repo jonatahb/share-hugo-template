@@ -4,6 +4,11 @@ _enabled_editors:
 
 data_config: true
 
+collections_config:
+  data:
+    path: data
+    icon: nature_people
+
 _inputs:
   content_alignment:
     type: choice
