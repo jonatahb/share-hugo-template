@@ -11,7 +11,7 @@ collections_config:
     _inputs:
       # company
       name:
-        label: Name labled defined on the collection config
+        label: Name label defined on the collections_config
 
 _inputs:
   content_alignment:
