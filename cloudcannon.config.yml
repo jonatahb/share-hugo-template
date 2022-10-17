@@ -8,6 +8,10 @@ collections_config:
   data:
     path: data
     icon: nature_people
+    _inputs:
+      # company
+      name:
+        label: Name labled defined on the collection config
 
 _inputs:
   content_alignment:
