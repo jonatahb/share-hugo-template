@@ -6,7 +6,7 @@ data_config: true
 
 collections_config:
   data:
-    path: data
+    path: data/*
     icon: nature_people
     _inputs:
       # company
