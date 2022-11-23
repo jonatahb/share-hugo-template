@@ -7,6 +7,38 @@ sections:
   - _bookshop_name: cloudcannon/sections/hero-cta
     content:
       logo:
+        path:
+        alt:
+      blocks:
+        - _bookshop_name: cloudcannon/simple/headline
+          content:
+            text: Hero Content Can also be edited here
+          style:
+            heading_level: h1
+            text_color: Primary
+        - _bookshop_name: cloudcannon/simple/button
+          content:
+            text: Button
+            url: /
+            open_in_new_tab: false
+          style:
+            type: Primary
+            size: Responsive
+            disabled: false
+    style:
+      content_width: Large
+      content_alignment: Left
+      include_background_color: false
+      background_color: '#F0F0F0'
+      include_background_image: false
+      background_image_path:
+      include_background_overlay: false
+      background_overlay:
+        gradient_type: Linear
+        color: rgba(0, 0, 0, 0.25)
+  - _bookshop_name: cloudcannon/sections/hero-cta
+    content:
+      logo:
         path: /uploads/share-logo.svg
         alt: Share logo
       blocks:
@@ -422,7 +454,7 @@ sections:
       blocks:
         - _bookshop_name: cloudcannon/simple/paragraph
           content:
-            text: '© 2022 Share App.'
+            text: © 2022 Share App.
     style:
       custom_background_color: false
       background_color: '#f5f5f5'
