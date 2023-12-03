@@ -13,6 +13,10 @@ collections_config:
       name:
         label: Name label defined on the collections_config
 
+  posts:
+    _enabled_editors:
+      - content
+      - visual
 _inputs:
   content_alignment:
     type: choice
