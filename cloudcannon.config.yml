@@ -12,7 +12,6 @@ collections_config:
       # company
       name:
         label: Name label defined on the collections_config
-
   posts:
     _enabled_editors:
       - content
