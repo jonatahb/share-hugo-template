@@ -6,4 +6,22 @@ categories:
 image_path: /images/blog/1.jpg
 author: Bobby Brown
 ---
-My new post content and it's all connected
+*My new post* content ***and** it's all connected*
+
+> Quotation
+
+1. numbers OK
+
+* <a href="https://www.google.com/search?q=cats" target="_blank" rel="noreferrer noopener">Bullets</a> ok
+
+{{< highlight "as" >}}ahhhhhh{{< /highlight >}}
+
+What <img src="/uploads/cheers.png" alt="Group of people celebrating" title="Cheers everyone" height="1200" width="2397" />
+
+
+
+{{< gist "" "" >}}
+
+{{< gist "" "" >}}
+
+{{< tweet user="CloudCannon" id="1729905560273949015" >}}

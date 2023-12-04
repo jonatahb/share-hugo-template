@@ -4,6 +4,47 @@ _enabled_editors:
 
 data_config: true
 
+_editables:
+  content:
+    blockquote: true
+    bold: true
+    bulletedlist: true
+    center: align-center
+    code: true
+    copyformatting: true
+    correct_orientation: true
+    embed: true
+    expandable: true
+    format: 'p h1 h2 h3 h4 h5 h6 pre address div'
+    height: 888
+    horizontalrule: true
+    image: true
+    image_size_attributes: true
+    indent: true
+    italic: true
+    justify: align-justify
+    left: align-left
+    link: true
+    mime_type: image/png
+    numberedlist: true
+    outdent: true
+    paths:
+      uploads: static/images
+      dam_uploads:
+      dam_static:
+    redo: true
+    removeformat: true
+    resize_style: stretch
+    right: align-right
+    snippet: true
+    strike: true
+    styles:
+    subscript:
+    superscript:
+    table:
+    underline:
+    undo:
+    width:
 collections_config:
   data:
     path: data
