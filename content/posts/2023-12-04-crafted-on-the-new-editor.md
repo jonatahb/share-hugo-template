@@ -6,7 +6,7 @@ categories:
 image_path: /images/blog/1.jpg
 author: Bobby Brown
 ---
-*My new post* content ***and** it's all connected*
+*My new post* content ***and** it's all connected anothre obe*
 
 > Quotation
 
@@ -17,8 +17,6 @@ author: Bobby Brown
 {{< highlight "as" >}}ahhhhhh{{< /highlight >}}
 
 What <img src="/uploads/cheers.png" alt="Group of people celebrating" title="Cheers everyone" height="1200" width="2397" />
-
-
 
 {{< gist "" "" >}}
 
