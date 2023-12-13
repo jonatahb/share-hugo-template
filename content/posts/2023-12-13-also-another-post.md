@@ -6,6 +6,4 @@ categories:
 image_path: /images/blog/1.jpg
 author: Bobby Brown
 ---
-{{< param "" >}}sdsd
-
-{{< highlight "" >}}{{< /highlight >}}
+sdsd
