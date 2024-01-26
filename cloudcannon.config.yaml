@@ -1,0 +1,106 @@
+collections_config:
+  data:
+    path: data
+    output: false
+    icon: nature_people
+    _inputs:
+      name:
+        type: auto
+        label: Name label defined on the collections_config
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    output: true
+    icon: notes
+    _enabled_editors:
+      - content
+      - visual
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  content_alignment:
+    type: choice
+    options:
+      text_key: false
+      value_key: name
+      values:
+        - icon: align_horizontal_left
+          name: Left
+        - icon: align_horizontal_center
+          name: Center
+        - icon: align_horizontal_right
+          name: Right
+    cascade: true
+  vertical_alignment:
+    type: choice
+    options:
+      text_key: false
+      value_key: name
+      values:
+        - icon: align_vertical_top
+          name: Top
+        - icon: align_vertical_center
+          name: Middle
+        - icon: align_vertical_bottom
+          name: Bottom
+    cascade: true
+  content_width:
+    type: choice
+    options:
+      allow_empty: true
+      values:
+        - name: Small
+          icon: width_normal
+        - name: Medium
+          icon: width_wide
+        - name: Large
+          icon: rectangle
+    cascade: true
+_select_data: {}
+_structures: {}
+_editables:
+  content:
+    blockquote: true
+    bold: true
+    bulletedlist: true
+    center: align-center
+    code: true
+    copyformatting: true
+    correct_orientation: true
+    embed: true
+    expandable: true
+    format: p h1 h2 h3 h4 h5 h6 pre
+    height: 888
+    horizontalrule: true
+    image: true
+    image_size_attributes: true
+    indent: true
+    italic: true
+    justify: align-justify
+    left: align-left
+    link: true
+    mime_type: image/png
+    numberedlist: true
+    outdent: true
+    paths:
+      uploads: static/images
+      dam_uploads:
+      dam_static:
+    redo: true
+    removeformat: true
+    resize_style: stretch
+    right: align-right
+    snippet: true
+    strike: true
+    styles:
+    subscript: true
+    superscript: true
+    table: true
+    underline: true
+    undo: true
+    width: 777
+data_config: true
+timezone: Etc/UTC
