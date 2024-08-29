@@ -61,6 +61,10 @@ _inputs:
     cascade: true
 _select_data: {}
 _structures: {}
+markdown:
+	options:
+	  attributes: true
+	  table: true
 _editables:
   content:
     blockquote: true
