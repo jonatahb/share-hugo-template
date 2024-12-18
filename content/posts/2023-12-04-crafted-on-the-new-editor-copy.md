@@ -8,6 +8,21 @@ author: Bobby Brown
 ---
 *My new post* content ***and** it's all connected anothre obe*
 
+<table>
+<thead>
+<tr>
+<th>hello</th>
+<th>there</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ross</td>
+<td>tate</td>
+</tr>
+</tbody>
+</table>
+
 > Quotation
 
 1. numbers OK
@@ -23,3 +38,11 @@ What <img src="/uploads/cheers.png" alt="Group of people celebrating" title="Che
 {{< gist "" "" >}}
 
 {{< tweet user="CloudCannon" id="1729905560273949015" >}}
+
+Normal text
+
+```
+Maybe normal text, maybe code, indented by four spaces
+```
+
+More normal text.
